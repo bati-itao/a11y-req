@@ -32,4 +32,5 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: a11y-req_a11y
+          image: a11y-req_a11y
           tag: latest
