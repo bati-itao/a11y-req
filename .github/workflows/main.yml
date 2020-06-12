@@ -33,3 +33,4 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           tag: latest
+          image: a11y-req_a11y
