@@ -32,4 +32,4 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
-          tag: ${{ secrets.tag }} 
+          tag: latest
