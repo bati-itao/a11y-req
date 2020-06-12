@@ -31,6 +31,5 @@ jobs:
           service_principal_password: ${{ secrets.service_principal_password }}
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
-          repository: ${{ secrets.repository }}
+          repository: a11y-req_a11y
           tag: latest
-          image: a11y-req_a11y
